@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Informacion</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="images/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="css/site.css">
+    <link href="https://css.gg/css" rel="stylesheet" />
+    <script src="js/site.js"></script>
+    <script src="https://kit.fontawesome.com/3342ecc071.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="images/adrianfoto.jfif" class="my-photo" id="photo-profile" />
+                <div>
+                    <h1 class="title">Lic. Adrián Zambrano Ruiz</h1>
+                    <div class="badge-profile">Administrativo</div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/german.hdz.31" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="x.com" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="youtube.com" target="_blank"><i class="gg-youtube"></i></a>
+                        <a href="pokemon-go.com" target="_blank"><i class="gg-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i> Marzo, 2024</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i> Plantel 19</li>
+                        <li class="contacts-block-item"><a href="azr1976@yahoo.com.mx"><i class="gg-mail"></i>azr1976@yahoo.com.mx</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i> 2491059644</li>
+                    </ul>
+                    <a href="documentos/CURRICULUM.pdf" class="btn"><i class="font-icon icon-download"></i> Descargar</a>
+                </div>
+            </div>
+        </aside>
+        <section class="resume">
+            <header>
+                <div class="menu-circle" onclick="toggleMenu()">
+                    <i class="gg-menu-oreos"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav_item"><a href="index.html">Acerca de</a></li>
+                        <li class="nav_item"><a href="portfolio.html">Portafolio</a></li>
+                        <li class="nav_item"><a href="cursos.html">Cursos</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div>
+                <h2 class="title bordered">Portfolio</h2>
+                <div class="portfolio">
+                    <img src="images/mantenimientopc.jfif" onclick="showImage(this)" width="320" height="200px">
+                    <img src="images/OIP (17).jfif" onclick="showImage(this)" width="320" height="200px">
+                    <img src="images/OIP (18).jfif" onclick="showImage(this)" width="320" height="200px">
+                    <img src="images/redes.jfif" onclick="showImage(this)" width="320" height="200px">
+                    <img src="images/word.jfif" onclick="showImage(this)" width="320" height="200px">
+                    <img src="images/OIP (19).jfif" onclick="showImage(this)" width="320" height="200px">
+                    <img src="images/tecnico.jfif" onclick="showImage(this)"width="320" height="200px">
+                    <img src="images/programacio.jfif" onclick="showImage(this)" width="320" height="200px">
+                    <img src="images/administrativo.jfif" onclick="showImage(this)"width="320" height="200px">
+
+
+
+
+                 </div>   
+                  <div class="modal" id="preview">
+                        <div><a class="close" onclick="closeModal()"><i class="gg-close-r"></i>&nbsp;Cerrar&nbsp;</a> 
+                       </div>
+                </div>
+                
+
+            </div>
+        </section>
+
+        
+    </div>
+    <footer>
+        © ADRIAN ZAMBRANO RUIZ
+    </footer>
+</body>
+
+</html>
